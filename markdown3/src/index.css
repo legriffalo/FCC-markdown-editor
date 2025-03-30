@@ -4,8 +4,9 @@
 
 
 #root{
-  margin-top: 11vh;
-  width:100vw;
+  margin-top: 10vh;
   height:85vh;
+  border-style:solid;
+  overflow-y:hidden;
 }
 

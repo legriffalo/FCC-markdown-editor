@@ -2,7 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
+import { SiTypescript } from 'react-icons/si';
+import { RiTailwindCssLine } from 'react-icons/ri';
+import { FaReact } from 'react-icons/fa';
+import { SiDaisyui } from 'react-icons/si';
 
 const Footer: React.FC = () => {
   return (
@@ -14,12 +17,23 @@ const Footer: React.FC = () => {
                 <FontAwesomeIcon icon={faLinkedin} />
         </a>
 
+        <div className= "ml-auto flex flex-row items-center w-1/5">
+                <p>tech stack</p> 
+                <FontAwesomeIcon icon={faGithub} />
+                <SiTypescript/>
+                <FaReact />
+                <RiTailwindCssLine/>
+                <SiDaisyui/>
+
+                </div>
+
 </div>
 
   );
 };
 
 export default Footer;
+
 
 
 
